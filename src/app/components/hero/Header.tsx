@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div className="w-full flex justify-between px-8 fixed pt-3 ">
+    <div className="w-full flex z-10 justify-between px-8 fixed pt-3 ">
       {/* logo */}
       <h1 className="text-black font-bold">Hurrble</h1>
       {/* Buttons */}
