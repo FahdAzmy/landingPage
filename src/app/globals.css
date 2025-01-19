@@ -19,3 +19,18 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+.landing {
+  min-height: calc(100vh - 100px);
+}
+.details {
+  min-height: calc(100vh - 350px);
+}
+
+@media (max-width: 1100px) {
+  .details {
+    min-height: calc(67vh - 350px);
+  }
+}
+.line {
+  line-height: 3px;
+}
