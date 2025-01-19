@@ -58,11 +58,7 @@ const DetialsSection = () => {
               <div className="absolute bottom-16  -right-8 w-60 h-60 bg-purple-200 rounded-full " />
               <div className="bg-white flex   p-4 h-48 rounded-lg shadow-lg w-48 relative">
                 <div className=" w-[70%] absolute bottom-24 right-3 h-40  mb-4 ">
-                  <img
-                    src="Headphone.png"
-                    alt="Minimal Chair"
-                    className="   "
-                  />
+                  <img src="Headphone.png" alt="HeadPhone" />
                 </div>
                 <div className="flex flex-col h-full w-full absolute top-20 gap-3  pr-2 left-0 ">
                   <div>
