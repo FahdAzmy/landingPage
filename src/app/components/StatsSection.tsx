@@ -2,6 +2,7 @@ import React from "react";
 import MainButton from "./MainButton";
 import WeDo from "./WeDo";
 import { FaCaretUp } from "react-icons/fa";
+import Image from "next/image";
 
 const StatsSection = () => {
   return (
@@ -11,11 +12,15 @@ const StatsSection = () => {
         {/* First Metric */}
         <div className="absolute -bottom-4 -left-16 w-48  h-48 bg-[rgb(75,166,224)]  rounded-full " />
         <div className="relative bg-white rounded-2xl flex items-center shadow-lg  px-9 py-7 w-80 h-32 ">
-          <img src="blueLine.png" className="absolute -bottom-12 -right-8" />
+          <Image
+            alt=""
+            src="blueLine.png"
+            className="absolute -bottom-12 -right-8"
+          />
           <div className="flex items-center  gap-6 ">
             <div className="relative ">
               <div className="w-12 h-12 z-10 rounded-full  overflow-hidden ring-8 ring-gray-100  ">
-                <img
+                <Image
                   src="manblue.png"
                   alt="Profile"
                   className="w-full h-full  object-cover"
@@ -49,7 +54,8 @@ const StatsSection = () => {
           <div className="absolute top-1  -right-10 w-40 h-40 bg-[rgb(82,199,131)]  rounded-full " />
 
           <div className="relative  bg-white rounded-2xl flex   shadow-lg  px-9 py-7 w-80 h-32 ">
-            <img
+            <Image
+              alt=""
               src="greenLine.png"
               className="absolute -bottom-10  right-28"
             />
@@ -72,7 +78,7 @@ const StatsSection = () => {
               </div>
               <div className="relative">
                 <div className="w-12 h-12 rounded-full   overflow-hidden ring-8 ring-gray-100  ">
-                  <img
+                  <Image
                     src="mangray (1).png"
                     alt="Profile"
                     className="w-full h-full  object-cover"

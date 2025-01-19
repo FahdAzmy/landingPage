@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { ReactElement, ReactNode } from "react";
 const CardsArray = [
   {
@@ -23,7 +24,11 @@ export default function CardsSection() {
       className="p-3  bg-white rounded-lg  shadow-lg hover:shadow-lg transition"
     >
       <div className="w-full rounded-lg h-48 overflow-hidden mb-2">
-        <img src={`${card.img}`} className="w-full h-full object-cover  " />
+        <Image
+          alt=""
+          src={`${card.img}`}
+          className="w-full h-full object-cover  "
+        />
       </div>
       <div className="px-5 py-8 md:py-3">
         <h3 className="text-xl md:text-lg font-bold text-gray-800 mb-6 md:mb-2">

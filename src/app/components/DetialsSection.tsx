@@ -1,6 +1,7 @@
 import React from "react";
 import { ArrowRight, ChevronRight, ShoppingCart } from "lucide-react";
 import MainButton from "./MainButton";
+import Image from "next/image";
 
 const DetialsSection = () => {
   return (
@@ -31,9 +32,9 @@ const DetialsSection = () => {
             <div className="absolute right-64">
               {/* Minimal Chair Card */}
               <div className=" absolute bottom-20 -left-10 w-64 h-64 bg-yellow-200 rounded-full  " />
-              {/* img  */}
+              {/* Image  */}
               <div className="  w-[70%] absolute bottom-12 left-6 h-full  mb-4 z-10 ">
-                <img src="Chair.png" alt="Minimal Chair" />
+                <Image src="Chair.png" alt="Minimal Chair" />
               </div>
               <div className="bg-white flex    p-4 h-48 rounded-lg shadow-lg w-48 relative">
                 {/* Price */}
@@ -58,7 +59,7 @@ const DetialsSection = () => {
               <div className="absolute bottom-16  -right-8 w-60 h-60 bg-purple-200 rounded-full " />
               <div className="bg-white flex   p-4 h-48 rounded-lg shadow-lg w-48 relative">
                 <div className=" w-[70%] absolute bottom-24 right-3 h-40  mb-4 ">
-                  <img src="Headphone.png" alt="HeadPhone" />
+                  <Image src="Headphone.png" alt="HeadPhone" />
                 </div>
                 <div className="flex flex-col h-full w-full absolute top-20 gap-3  pr-2 left-0 ">
                   <div>

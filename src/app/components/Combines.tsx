@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Companies() {
@@ -24,7 +25,7 @@ export default function Companies() {
     },
   ];
   const Logos = images.map((image) => (
-    <img
+    <Image
       src={`/${image.src}`}
       alt={`${image.alt}`}
       className="w-16 md:w-16 h-auto object-contain transition-transform hover:scale-110"

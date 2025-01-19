@@ -1,11 +1,12 @@
 import React from "react";
 import SearchInput from "./SearchInput";
+import Image from "next/image";
 
 export default function HeroSection() {
   return (
     <section className="flex gap-8 landing ">
       <div className="    max-xl:hidden">
-        <img
+        <Image
           src="hero.png"
           alt="James Bruno"
           className=" h-full w-full rounded-lg"
